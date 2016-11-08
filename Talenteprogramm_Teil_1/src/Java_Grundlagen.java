@@ -98,7 +98,16 @@ public class Java_Grundlagen {
 //				f.printStackTrace();
 //		}
 		
-		  Hallo_Welt app = new Hallo_TCG();
+		  Hallo app = new Hallo_Welt();
 		   System.out.println(app.g());
+		   //System.out.println(app.goodby());
+		   
+		   app = new Hallo_TCG();
+		   System.out.println(app.g());
+		   //System.out.println(app.goodby());
+		   
+		   app = new Hallo_TCA();
+		   System.out.println(app.g());
+		   //System.out.println(app.goodby());
   }
 }

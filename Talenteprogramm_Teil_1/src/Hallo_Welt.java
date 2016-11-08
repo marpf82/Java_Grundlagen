@@ -1,10 +1,16 @@
+//public class Hallo_Welt extends Hallo {
+public class Hallo_Welt implements Hallo {
 
-public class Hallo_Welt {
 
-	private final String m = "Hallo Welt";
-	
-	public String g() {
-		return m;
+//	private final String m = "Hallo Welt";
+//	
+//	public String g() {
+//		return m;
+//	
+	@Override
+	public String g(){
+		return "Hallo Welt";
 	}
+
 	
 }
